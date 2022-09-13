@@ -56,6 +56,11 @@ wolfy.splice(0, 1, "Gameboy")
 
 //====Yell at the Ninja Turtles
 
+const ninja = ["Donatello", "Leonardo","Raphael","Michaelangelo"]
+for (const element of ninja){
+    console.log(element.toUpperCase());
+}
+
 //====Methods, Revisited
 
 //====Where is Waldo
