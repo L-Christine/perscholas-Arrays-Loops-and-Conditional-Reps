@@ -63,10 +63,29 @@ for (const element of ninja){
 
 //====Methods, Revisited
 
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+
+
+console.log(favMovies.indexOf("Titanic"));
+
+favMovies.sort()
+favMovies.pop()
+favMovies.push("Guardians of the Galaxy")
+favMovies.reverse()
+favMovies.shift() //remove GoG
+favMovies.unshift() //return nothing as no movie was added
+favMovies.splice(favMovies.indexOf("Django Unchained"), 1, 'Avatar')
+const half = Math.floor(favMovies.length / 2)
+const sliceMovies = favMovies.slice(0, half)
+// favMovies.slice(0, half) w/o variable does not change array
+console.log(sliceMovies); //slice half
+console.log(sliceMovies.indexOf("Fast and Furious")) //-1 is returned
+//const of array is mutable
+
 //====Where is Waldo
 
-//Excited Kitten
+//====Excited Kitten
 
-//Find the Median
+//====Find the Median
 
 //
