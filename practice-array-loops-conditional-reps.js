@@ -151,3 +151,10 @@ console.log(kristynsCloset[2]+','+kristynsCloset[3]+','+kristynsCloset[4]); //GA
 
 console.log(thomsCloset[0][1]+','+thomsCloset[1][1]+','+thomsCloset[2][2]) //dark grey button-up,jeans,raybans
 
+//Dirty Laundry
+for (i = 0; i <= kristynsCloset.length - 1; i++){
+    console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+}
+
+//Inventory
+console.log(thomsCloset[0],thomsCloset[1],thomsCloset[2])
